@@ -1,0 +1,104 @@
+body{
+  background:black;
+  overflow-x: hidden;
+  
+ 
+}
+
+
+.heading-pra-tag{
+  margin-top:0px;
+  margin-bottom:10px;
+    color: #fff591;
+  font-size:4.5rem;
+  text-align:center;
+  background:#373a6d
+;}
+
+.title-pic{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:93vw;
+  height:60vh;
+  align:center;
+}
+h2{
+  margin-left:1%;
+  background:#414141;
+  color:pink;
+  padding:3px;
+  margin-top:5vh;
+  font-size:2rem; 
+
+
+
+ }
+
+.about-text p{
+  font-size:25px;
+  font-family: cursive;
+  text-align:center;
+  background:black;
+  color:white;
+}
+/*.aboutme-div{
+  background:red;}*/
+
+.gallery{
+display:flex;
+width:100%;
+margin:auto;
+justify-content:space-between;
+flex-wrap:wrap;
+box-sizing:border-box;
+background: black;
+
+}
+figure{
+width:350px;
+margin:4px 0px ;
+padding:20px;
+/*box-sizing:border-box;
+background-color:#414141;*/
+}
+figure img{
+width:100%;
+height:40vh;
+}
+
+figure figcaption
+{
+color: #bfcd7e;
+font-size:1.4rem; S
+text-align: center;
+padding:8px 4px;
+}
+@media (max-width:480PX) , (max-width:650px){
+  figure{display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:93vw;
+  height:60vh;
+  align:center;} 
+}
+
+figure:hover{
+  border:4px solid #f0f69f;
+  border-radius:5%;
+  background-color:#525252; 
+}
+figcaption:hover{
+  color: #d65a31;
+}
+  
+  footer{
+    height:80px;
+    background:#085f63;
+  }
+   footer p{text-align:center;
+  height: 50px; 
+  line-height: 50px;
+  font-size: 100%;
+  margin-left:-100%;
+  margin-right:-100%;}
